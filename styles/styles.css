@@ -394,28 +394,30 @@ margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
+.customers-li{
 
+ 
+}
 .customers-link{
  display: flex;
  justify-content: center;
  align-items: center;
  flex-direction: row;
  width: 168px;
- height: 88px;
+height: 88px;  
  border: 1px solid #8E8F99;
  border-radius: 4px;
- color: #4D5AE5;  
+ color: #AFB1B8;
 }
 
-.customers-li{
 
-    
-}
 .customers-list .customers-li:not(:last-child){
     margin-right: 24px;
 }
 .customers-list{
+ 
 display: flex;
 justify-content: center;
 align-items: center;
@@ -426,11 +428,14 @@ padding-bottom: 120px;
 }
 .customers-link:hover,
 .customers-link:focus{
-    border-color: #4D5AE5;
+    border-color:#404BBF;
     color: #4D5AE5;
 }
 .customers-svg{
-fill: currentColor;
+fill: currentColor
+}
+.customers-svg:hover{
+    fill: #404BBF;
 }
 
 /*fotter*/
@@ -442,7 +447,10 @@ fill: currentColor;
     background: #2E2F42;
 
 }
+.containerr{
 
+
+}
 
 .webstudio-footer {
     text-decoration: none;
@@ -459,23 +467,65 @@ fill: currentColor;
     margin: 0 ;
     margin-top: 8px;
     width: 264px;
+    
      font-size: 16px;
      line-height: 1.5;
      letter-spacing: 0.02em;
      color: #E7E9FC;
 }
 .footer-flex{
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center
+    align-items: center;
+}
+.media-box{
+     
+    padding-left: 120px;  
+}
+.media-svg{
+    margin: 0;
+    
+    
+}
+.media-link{
+    width: 24px;
+    height: 24px;
+    
+    
+}
+.media-li{
+    width: 40px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+}
+.media{
+margin: 0;
+
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #FFFFFF;
 }
 .social-list{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-}
+list-style: none;
+padding-left: 0;
+margin: 0;
+margin-top: 16px;
+display: flex;
 
+}
+.social-list .media-li:not(:last-child){
+    margin-right: 16px;
+}
 /*portfolio-navigation*/
 
 .visually-hidden {
@@ -569,8 +619,9 @@ padding-left: 16px;
 border: 0.5px solid #F4F4FD;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 
-
-
+}
+.portfolio-how:hover{
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .section-title {
 
